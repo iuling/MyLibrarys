@@ -13,17 +13,17 @@ More convenient and easy to use android Log manager
 
 ## 2. screenshot
 ##### 日志说明
-![截图](screenshot/screenshot02.png)
+![截图](../screenshot/screenshot02.png)
 ##### 个性化设置Tag
-![截图](screenshot/screenshot08.png)
+![截图](../screenshot/screenshot08.png)
 ##### 打印数据列表
-![截图](screenshot/screenshot03.png)
+![截图](../screenshot/screenshot03.png)
 ##### 打印数组
-![截图](screenshot/screenshot04.png)
+![截图](../screenshot/screenshot04.png)
 ##### 打印对象本身属性和继承的属性
-![截图](screenshot/screenshot05.png)
+![截图](../screenshot/screenshot05.png)
 ##### 打印系统对象Intent
-![截图](screenshot/screenshot06.png)
+![截图](../screenshot/screenshot06.png)
 
 ## 3. Simple
 ```java
