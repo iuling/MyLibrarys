@@ -3,8 +3,11 @@
 ## 1.LogUtils
 查看LogUtils的使用说明<a href='./doc/README-LogUtils.md'>详细文档</a>
 
+## 2.SweetDialog
+查看SweetDialog的使用说明<a href='./doc/README-SweetDialog.md'>详细文档</a>
 
-## 2. License
+
+## 3. License
 <pre>
 Copyright 2015-2016 宋小雄
 
