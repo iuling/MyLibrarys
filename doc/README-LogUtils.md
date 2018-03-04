@@ -1,5 +1,4 @@
 # LogUtils
-<!--*[查看中文版](./doc/README_CN.md)*<br/>-->
 More convenient and easy to use android Log manager
 
 ## 1. Features
@@ -123,7 +122,7 @@ LogUtils.getLogConfig()
 
 ##### 自定义对象打印
 实现Parser<T>接口，并实现parseClassType() 和parseString()方法,再通过addParserClass()配置到LogUtil
-<a href='./doc/custom_parser.md'>详细文档</a>
+<a href='./custom_parser.md'>详细文档</a>
 
 
 ## 4. Usage
@@ -176,9 +175,9 @@ LogUtils.getLog2FileConfig().configLogFileEngine(new MyLogFileEngine());
 ```
 
 ## 5. Skills
-* [从Log切换到LogUtils](./doc/log_to_logutils.md)
-* [为LogUtils设置快捷键](./doc/logutils_templates.md)
-* [修改LogCat显示字体颜色](./doc/logcat_color.md)
+* [从Log切换到LogUtils](./log_to_logutils.md)
+* [为LogUtils设置快捷键](./logutils_templates.md)
+* [修改LogCat显示字体颜色](./logcat_color.md)
 
 ## 6. History
 * **1.0.0 (2015/07/13)**
@@ -231,20 +230,3 @@ LogUtils.getLog2FileConfig().configLogFileEngine(new MyLogFileEngine());
 * thanks to [tinybright](https://github.com/tinybright)、[DrSlark](https://github.com/DrSlark)'s advice.
 * thanks to [wyouflf/xUtils](https://github.com/wyouflf/xUtils)、[orhanobut/logger](https://github.com/orhanobut/logger)、
 [ZhaoKaiQiang/KLog](https://github.com/ZhaoKaiQiang/KLog)、[noveogroup/android-logger](https://github.com/noveogroup/android-logger)
-
-## 9. License
-<pre>
-Copyright 2015-2016 宋小雄
-
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
-
-   http://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
-</pre>
