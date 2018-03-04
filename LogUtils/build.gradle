@@ -24,3 +24,18 @@ dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation 'com.squareup.okio:okio:1.11.0'
 }
+
+build << {
+    def jarName = "logutil-$android.defaultConfig.versionName\\.jar"
+    copy {
+        from('build/intermediates/bundles/release/')
+        into("$rootDir/jar/")
+        include('classes.jar')
+        rename('classes.jar', jarName)
+    }
+}
+
+if (file("$projectDir/bintrayUpload.gradle").exists()) {
+    apply from: "./bintrayUpload.gradle"
+}
+

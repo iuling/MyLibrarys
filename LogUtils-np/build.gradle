@@ -25,3 +25,16 @@ android {
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 }
+build << {
+    def jarName = "logutil-np-$android.defaultConfig.versionName\\.jar"
+    copy {
+        from('build/intermediates/bundles/release/')
+        into("$rootDir/jar/")
+        include('classes.jar')
+        rename('classes.jar', jarName)
+    }
+}
+
+if (file("$projectDir/bintrayUpload.gradle").exists()) {
+    apply from: "./bintrayUpload.gradle"
+}
