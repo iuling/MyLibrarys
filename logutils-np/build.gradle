@@ -1,0 +1,45 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 26
+
+
+
+    defaultConfig {
+        minSdkVersion 14
+        targetSdkVersion 26
+        versionCode 152
+        versionName "1.5.2"
+
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    lintOptions {
+        abortOnError false
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+}
+
+task sync << {
+    def javaPath = "src/main/java/com/iuling/logutils"
+    copy {
+        from "$rootDir/library/${javaPath}"
+        include "LogConfig.java","Parser.java", "Printer.java"
+        into "$projectDir/${javaPath}"
+    }
+    File parserFile = project.file("${javaPath}/Parser.java")
+    def parserContent = parserFile.getText().replaceFirst(/String LINE_SEPARATOR = .+;/, "String LINE_SEPARATOR = null;")
+    parserFile.write(parserContent)
+}
+
+//if (file("$projectDir/bintrayUpload.gradle").exists()) {
+//    apply from: "./bintrayUpload.gradle"
+//}

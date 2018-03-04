@@ -1,1 +1,1 @@
-include ':app', ':LogUtils', ':LogUtils-np'
+include ':app', ':logutils', ':logutils-np', ':sweetdialog'
