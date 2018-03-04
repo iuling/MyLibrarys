@@ -2,13 +2,7 @@ Sweet Alert Dialog
 ===================
 Android版的SweetAlert，清新文艺，快意灵动的甜心弹框
 
-[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-Sweet%20Alert%20Dialog-brightgreen.svg?style=flat)](https://android-arsenal.com/details/1/1065)
-
-[English Version](https://github.com/pedant/sweet-alert-dialog/blob/master/README.md)
-
 灵感来源于JS版[SweetAlert](http://tristanedwards.me/sweetalert)
-
-[Demo下载](https://github.com/pedant/sweet-alert-dialog/releases/download/v1.1/sweet-alert-sample-v1.1.apk)
 
 ## 运行示意图
 ![image](https://github.com/pedant/sweet-alert-dialog/raw/master/change_type.gif)
@@ -19,10 +13,10 @@ Android版的SweetAlert，清新文艺，快意灵动的甜心弹框
 **Maven**
 
     <dependency>
-      <groupId>cn.pedant.sweetalert</groupId>
-      <artifactId>library</artifactId>
+      <groupId>com.iuling.widget</groupId>
+      <artifactId>sweetdialog</artifactId>
       <version>1.3</version>
-      <type>aar</type>
+      <type>pom</type>
     </dependency>
 
 **Gradle**
@@ -32,7 +26,7 @@ Android版的SweetAlert，清新文艺，快意灵动的甜心弹框
     }
 
     dependencies {
-        compile 'cn.pedant.sweetalert:library:1.3'
+        compile 'com.iuling.widget:sweetdialog:1.3'
     }
 
 ## 如何开始
@@ -162,31 +156,5 @@ Android版的SweetAlert，清新文艺，快意灵动的甜心弹框
             }
         })
         .show();
-
-[更多Android原创技术分享见: pedant.cn](http://www.pedant.cn)
-
-## License
-
-    The MIT License (MIT)
-
-    Copyright (c) 2014 Pedant(http://pedant.cn)
-
-    Permission is hereby granted, free of charge, to any person obtaining a copy
-    of this software and associated documentation files (the "Software"), to deal
-    in the Software without restriction, including without limitation the rights
-    to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-    copies of the Software, and to permit persons to whom the Software is
-    furnished to do so, subject to the following conditions:
-
-    The above copyright notice and this permission notice shall be included in all
-    copies or substantial portions of the Software.
-
-    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-    AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-    LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-    OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-    SOFTWARE.
 
 
