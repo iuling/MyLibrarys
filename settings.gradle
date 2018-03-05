@@ -1,1 +1,1 @@
-include ':app', ':logutils', ':logutils-np', ':sweetdialog'
+include ':app', ':logutils', ':logutils-np', ':sweetdialog', ':nicespinner'

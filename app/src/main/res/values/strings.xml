@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">MyLibrarys</string>
+    <array name="spinnerItem">
+        <item>星期一</item>
+        <item>星期二</item>
+        <item>星期三</item>
+        <item>星期四</item>
+        <item>星期五</item>
+        <item>星期六</item>
+        <item>星期天</item>
+    </array>
 </resources>

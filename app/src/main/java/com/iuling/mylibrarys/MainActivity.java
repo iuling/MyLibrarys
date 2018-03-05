@@ -4,7 +4,15 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.TextView;
 
+import com.iuling.nicespinner.NiceSpinner;
+
+import java.util.Arrays;
+import java.util.LinkedList;
+import java.util.List;
+
 public class MainActivity extends AppCompatActivity {
+
+    private NiceSpinner spinner;
 
     // Used to load the 'native-lib' library on application startup.
     static {
@@ -17,8 +25,10 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         // Example of a call to a native method
-        TextView tv = (TextView) findViewById(R.id.sample_text);
-        tv.setText(stringFromJNI());
+        //tv.setText(stringFromJNI());
+        spinner = findViewById(R.id.spinner);
+        List<String> dataset = new LinkedList<>(Arrays.asList(getResources().getStringArray(R.array.spinnerItem)));
+        spinner.attachDataSource(dataset);
     }
 
     /**

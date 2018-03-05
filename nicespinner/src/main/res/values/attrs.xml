@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="NiceSpinner">
+        <attr name="arrowTint" format="color" />
+        <attr name="hideArrow" format="boolean" />
+        <attr name="arrowDrawable" format="reference|color"/>
+        <attr name="dropDownListPaddingBottom" format="dimension"/>
+        <attr name="backgroundSelector" format="integer"/>
+        <attr name="textTint" format="color"/>
+        <attr name="dividerColor" format="color"/>
+        <attr name="dividerHeight" format="dimension"/>
+        <attr name="itemGravity" format="enum">
+            <enum name="center" value="17"/>
+            <enum name="left" value="3"/>
+            <enum name="right" value="5"/>
+        </attr>
+        <attr name="paddingLeft" format="dimension"/>
+        <attr name="paddingRight" format="dimension"/>
+        <attr name="paddingTop" format="dimension"/>
+        <attr name="paddingBottom" format="dimension"/>
+        <attr name="padding" format="dimension"/>
+        <attr name="borderColor" format="color"/>
+        <attr name="borderWidth" format="dimension"/>
+    </declare-styleable>
+</resources>
