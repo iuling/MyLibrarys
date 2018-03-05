@@ -11,6 +11,7 @@ Android中漂亮的Spinner组件,本组件修改自 <a href='https://github.com/
 * 4.支持设置圆角边框
 
 **属性参考**
+
     <declare-styleable name="NiceSpinner">
         <attr name="arrowTint" format="color" />
         <attr name="hideArrow" format="boolean" />
@@ -33,9 +34,9 @@ Android中漂亮的Spinner组件,本组件修改自 <a href='https://github.com/
         <attr name="borderColor" format="color"/>
         <attr name="borderWidth" format="dimension"/>
     </declare-styleable>
-**属性参考**
 
 **布局参考**
+
     <com.iuling.nicespinner.NiceSpinner
         android:id="@+id/spinner"
         android:layout_width="match_parent"
@@ -48,7 +49,6 @@ Android中漂亮的Spinner组件,本组件修改自 <a href='https://github.com/
         app:paddingLeft="12dp"
         app:paddingRight="12dp"
         />
-**布局参考**
 
 ## 依赖下载
 **Maven**
