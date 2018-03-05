@@ -3,11 +3,14 @@
 ## 1.LogUtils
 查看LogUtils的使用说明<a href='./doc/README-LogUtils.md'>详细文档</a>
 
-## 2.SweetDialog
-查看SweetDialog的使用说明<a href='./doc/README-SweetDialog.md'>详细文档</a>
+## 2.Sweet Dialog
+查看Sweet Dialog的使用说明<a href='./doc/README-SweetDialog.md'>详细文档</a>
+
+## 3.Nice Spinner
+查看Nice Spinner的使用说明<a href='./doc/README-Nice-Spinner.md'>详细文档</a>
 
 
-## 3. License
+## 4. License
 <pre>
 Copyright 2015-2016 宋小雄
 
